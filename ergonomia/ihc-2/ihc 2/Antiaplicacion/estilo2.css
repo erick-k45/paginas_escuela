@@ -1,0 +1,10 @@
+@charset "utf-8";
+body {
+    background-image:url('img/nop.jpg');
+    background-size:50%;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    height:50%;
+    width:50%;
+}
