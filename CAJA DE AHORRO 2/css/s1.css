@@ -1,0 +1,212 @@
+
+body{font-family:"Segoe UI Webfont","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+font-size:15px;line-height:20px;font-weight:400;font-size:.9375rem;line-height:1.25rem;padding-bottom:.227px;
+padding-top:.227px;color:#000;background-color:#fff}body:lang(zh-cn),body:lang(zh-tw){font-family:
+"Segoe UI Webfont","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math"}
+a{color:#ccc;text-decoration:none}a:link{color:#0078d7}a:visited{color:#0078d7}a:hover{color:#666}
+a:focus{color:#0078d7}a:active{color:#999}.text-center{text-align:center}.text-justify{text-align:justify}
+.text-nowrap{white-space:nowrap}.text-lowercase{text-transform:lowercase}.text-uppercase{text-transform:uppercase}
+.text-capitalize{text-transform:capitalize}ul,ol{margin-top:0;margin-bottom:10px}ul ul,ul ol,ol ul,ol ol{margin-bottom:0}
+ *{
+margin: 0px;
+padding: 0px;
+ }
+
+
+ div#TIT {
+width:100%;
+height:100%;
+background-image: url(../ima/FB6.jpg);
+text-align: center;
+
+}
+
+ div#TIT2 {
+width:100%;
+height:20%;
+background-image: url(../ima/FB6.jpg);
+text-align: center;
+
+}
+
+div#MEN{
+width:100%;
+height:10%;
+background-color:#64B5F6;
+text-align: center; 
+float:left;
+background-image: url(../ima/FB3.jpg);
+}
+
+ div#PRO{ 	
+background-color:#e3f2fd;
+height:100%; width: 100%;
+float: left;
+background-image: url(../ima/FB6.jpg);
+
+}
+
+ div#SUBMEN{
+margin:20px; 
+margin-top:40px;
+margin-left:40px;
+float: left;
+background-color:#e3f2fd;
+background-image: url(../ima/FB6.jpg);
+height: 70%; width: 15%; 
+border: 1px solid black;
+float: left;
+ }
+
+ table#fm{
+    width:50% ; 
+    margin:auto;
+    margin-left:400px;
+    margin-top:10px;
+}
+
+table#fm td{
+    height: 30px;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 10px;
+
+}
+
+ table#con{
+    border-collapse: collapse;
+    width: 70%;
+}
+
+table#con td{
+    c
+    text-align: left;
+    vertical-align: bottom;
+    padding: 10px;
+    border: 1px solid #ddd;
+
+}
+
+tr#con:nth-child(even){background-color: #f2f2f2}
+
+
+ input[type=text] {
+  border: 1px solid #DBE1EB;
+  font-size: 18px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+  }
+
+input[type=password] {
+  border: 1px solid #DBE1EB;
+  font-size: 18px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+  }
+
+input[type=submit]  {
+	-moz-box-shadow:inset 0px 1px 0px 0px #9c8785;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #9c8785;
+	box-shadow:inset 0px 1px 0px 0px #9c8785;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7d5d3b), color-stop(1, #a3723e));
+	background:-moz-linear-gradient(top, #7d5d3b 5%, #a3723e 100%);
+	background:-webkit-linear-gradient(top, #7d5d3b 5%, #a3723e 100%);
+	background:-o-linear-gradient(top, #7d5d3b 5%, #a3723e 100%);
+	background:-ms-linear-gradient(top, #7d5d3b 5%, #a3723e 100%);
+	background:linear-gradient(to bottom, #7d5d3b 5%, #a3723e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d5d3b', endColorstr='#a3723e',GradientType=0);
+	background-color:#7d5d3b;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+
+
+
+#header {
+        margin:auto;
+        margin-top:8px;
+        width:auto;
+       float:right;
+        font-family:"Segoe UI Webfont","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+        font-size:45px;
+      }
+      
+      ul, ol {
+        list-style:none;
+      }
+      
+      .nav > li {
+        float:left;
+      }
+      
+      .nav li a {
+        background-color:#563614;
+        /*background-image: url(../ima/FB3.jpg);*/
+
+        color:#fff;
+        text-decoration:none;
+        padding:15px 15px;
+        display:block;
+      }
+      
+      .nav li a:hover {
+        background-color:#563614;
+      }
+      
+      .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      .nav li:hover > ul {
+        display:block;
+      }
+      
+      .nav li ul li {
+        position:right;
+      }
+      
+      .nav ul
+      {
+        float: right;
+      }
+      
+      .nav li ul li ul {
+        right:-140px;
+        top:0px;
+      }
+      
