@@ -1,0 +1,126 @@
+
+
+/**
+ * @file
+ * Styles for system messages.
+ */
+
+div.messages {
+  background-position: 8px 8px; /* LTR */
+  background-repeat: no-repeat;
+  border: 1px solid;
+  margin: 6px 0;
+  padding: 10px 10px 10px 50px; /* LTR */
+}
+
+div.status {
+  background-image: url(../../misc/message-24-ok.png);
+  border-color: #be7;
+}
+div.status,
+.ok {
+  color: #234600;
+}
+div.status,
+table tr.ok {
+  background-color: #f8fff0;
+}
+
+div.warning {
+  background-image: url(../../misc/message-24-warning.png);
+  border-color: #ed5;
+}
+div.warning,
+.warning {
+  color: #840;
+}
+div.warning,
+table tr.warning {
+  background-color: #fffce5;
+}
+
+div.error {
+  background-image: url(../../misc/message-24-error.png);
+  border-color: #ed541d;
+}
+div.error,
+.error {
+  color: #8c2e0b;
+}
+div.error,
+table tr.error {
+  background-color: #fef5f1;
+}
+div.error p.error {
+  color: #333;
+}
+
+div.messages ul {
+  margin: 0 0 0 1em; /* LTR */
+  padding: 0;
+}
+div.messages ul li {
+  list-style-image: none;
+}
+
+div.gpt-ad{
+	font-size:0;
+	line-height:0;	
+}
+
+div.gpt-ad-f{
+	margin-top:-1px;
+}
+
+div.contextual-links-wrapper{
+  z-index:499!important;
+}
+
+#edit-submit-hidden{display:none;}
+
+header.full #messages{
+	border-style:none;
+}
+
+header.full #messages h2{
+	display: none;
+}
+
+header.full #messages div{padding-left: 34px;}
+
+
+header.full #messages div.status{background-image: url(/misc/message-24-ok.png);background-repeat: no-repeat;}
+header.full #messages div.status
+header.full #messages div.warning{background-image:url(/misc/message-24-warning.png);background-repeat: no-repeat;}
+
+.doctop {margin:-40px 0px 0px; color:#999;}
+    .doctop p {margin:0; line-height:30px;}
+    .doctop img {margin-right:12px;}
+
+/*
+.social-bar a span.a2a_count,
+.social-bar a span.a2a_count span{
+	border-style:none;	
+	background-image:none;
+	background-color: transparent;
+	line-height: inherit!important;
+	width: inherit!important;
+}
+
+.social-bar a span.a2a_count:before, 
+.social-bar a span.a2a_count:after{
+	border-style:none;
+	background-color: transparent;
+}
+
+.ico-facebook-b .a2a_count{
+	color:#3b5998;
+	font-weight: 700;
+}
+
+.social-bar.a2a_default_style .a2a_count, 
+.social-bar.a2a_default_style .a2a_svg, 
+.social-bar.a2a_floating_style .a2a_svg, 
+.social-bar.a2a_menu .a2a_svg{
+	border-radius:0px;
+}*/

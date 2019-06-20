@@ -1,0 +1,22 @@
+@charset "utf-8";
+body {
+    background-image:url('img/fondo.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+div#f1 {
+background:GREEN; 
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+border:50px;
+color: #0000FF;
+}
+
+div#f2{
+	font-family:"Comic Sans MS", cursive;
+}
