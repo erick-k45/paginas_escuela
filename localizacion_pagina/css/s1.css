@@ -1,0 +1,35 @@
+ div#PRO{ 	
+background-color:#e3f2fd;
+height:200%; width: 100%;
+float: center;
+background-image: url(../ima/fondo.png);
+
+}
+
+#PRO h1 {
+  font-style:italic;
+  font-weight:bold;
+  font-size:3em;
+  font-color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+#PRO h2 {
+  font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+#PRO label,input {
+  font-style:italic;
+  font-weight:bold;
+  font-size:1em;
+  font-color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+div#BC{ 	
+height:100%; width: 50%;
+background: #fff bottom left repeat-x;
+/*opacity:0.9;*/
+}
